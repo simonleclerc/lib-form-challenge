@@ -4,7 +4,8 @@
   "private": true,
   "dependencies": {
     "@emotion/core": "^10.0.28",
-    "@gojob/ui-bits": "^1.11.0",
+    "@gojob/ui-bits": "^1.12.0",
+    "@hookform/resolvers": "^0.0.4",
     "@material-ui/core": "^4.10.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -13,16 +14,18 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
+    "@types/yup": "^0.29.3",
     "google-libphonenumber": "^3.2.10",
     "polished": "^3.6.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-hook-form": "^5.7.2",
+    "react-hook-form": "^6.0.0-rc.4",
     "react-i18next": "^11.5.0",
     "react-scripts": "3.4.1",
     "react-select": "^3.1.0",
     "react-window": "^1.8.5",
-    "typescript": "~3.7.2"
+    "typescript": "~3.7.2",
+    "yup": "^0.29.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -47,6 +50,6 @@
   },
   "devDependencies": {
     "prettier": "^2.0.5",
-    "react-hook-form-devtools": "^1.2.0"
+    "react-hook-form-devtools": "^2.1.0"
   }
 }
